@@ -1,0 +1,17 @@
+import React from 'react';
+
+import './NavigationItems.css';
+
+import NavigationItem from './NavigationItem/NavigationItem';
+
+const navigationItems = () => (
+    <ul className="NavigationItems">
+        <NavigationItem link="/" active>About Me</NavigationItem>
+        <NavigationItem>Datacenter</NavigationItem>
+        <NavigationItem>Feat</NavigationItem>
+        <NavigationItem>Timeline</NavigationItem>
+        <NavigationItem>Contact</NavigationItem>
+    </ul>
+);
+
+export default navigationItems;

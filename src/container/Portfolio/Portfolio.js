@@ -1,13 +1,11 @@
 import React from 'react';
 
-import classes from './Portfolio.css';
-
-import Profilepic from '../../assets/cartoon.jpg';
+import './Portfolio.css';
 
 const Portfolio = () => {
     return(
-        <div className={classes.Portfolio}>
-            <img src={Profilepic} alt="Shreyas Kalyanaraman"></img>
+        <div className="Portfolio">
+            
         </div>
     );
 }
