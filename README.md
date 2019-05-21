@@ -1,2 +1,5 @@
 # My Portfolio
-My accomplishments and contributions till date
+
+Portfolio website, depecting my accomplishments till date.
+
+(Portfolio link)[https://shreyaskraman.github.io/my-portfolio/]
