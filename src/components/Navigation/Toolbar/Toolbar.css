@@ -13,6 +13,24 @@
   z-index: 90;
 }
 
+.Resume{
+  border: solid black 0.5px;
+  color: black;
+  padding:5px 10px;
+  border-radius:10px;
+  float:right;
+}
+
+.Resume a{
+  text-decoration: none;
+}
+
+.Resume:hover{
+  color:#3b5998;
+  border-color: #3b5998;
+  cursor: pointer;
+}
+
 .Toolbar nav{
   height:100%;
 }

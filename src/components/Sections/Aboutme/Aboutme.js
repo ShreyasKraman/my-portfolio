@@ -1,23 +1,17 @@
 import React from 'react';
 
-import Aux from '../../../hoc/Auxillary/Auxillary';
 import ProfilePic from './Profilepic/Profilepic';
 import Summary from './Summary/Summary';
 
-import {Row,Col} from 'react-bootstrap';
+import classes from './Aboutme.css';
+
 
 const Aboutme = () => {
     return(
-        <Aux>
-            <Row>
-                <Col>
-                    <Summary/>
-                </Col>
-                <Col>
-                    <ProfilePic/>
-                </Col>
-            </Row>
-        </Aux>
+        <div className={classes.Aboutme}>
+            <Summary/>
+            <ProfilePic/>
+        </div>
     );
 }
 

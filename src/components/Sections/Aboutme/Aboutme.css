@@ -1,0 +1,12 @@
+.Aboutme{
+    display: flex;
+    flex-flow: column;
+    height:100vh;
+}
+
+
+@media(min-width:499px){
+    .Aboutme{
+        flex-flow: row;
+    }
+}

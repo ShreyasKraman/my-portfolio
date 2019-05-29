@@ -16,6 +16,8 @@
     cursor: pointer;
  }
 
+
+
  @media(min-width:500px){
     .NavigationItem{
         margin:0;

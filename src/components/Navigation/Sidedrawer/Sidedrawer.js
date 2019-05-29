@@ -4,15 +4,15 @@ import Aux from '../../../hoc/Auxillary/Auxillary';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 import NavigationItems from '../NavigatioinItems/NavigationItems';
 
-import './Sidedrawer.css';
+import classes from './Sidedrawer.css';
 
 
 const Sidedrawer = (props) => {
 
-    let attachedClasses = ["SideDrawer", "Close" ]
+    let attachedClasses = [classes.Sidedrawer, classes.Close ]
     
     if(props.open){
-        attachedClasses = ["SideDrawer", "Open"]
+        attachedClasses = [classes.SideDrawer, classes.Open]
     }
     
 

@@ -1,0 +1,18 @@
+.Feats{
+    width:100%;
+    height:100vh;
+}
+
+.GridList{
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-around;
+    margin:20px;
+}
+
+@media(min-width:500px){
+    .GridList{
+        flex-flow: row; 
+    }
+}
