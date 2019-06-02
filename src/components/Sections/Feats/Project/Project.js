@@ -10,8 +10,9 @@ const Project = (props) => {
             <div className={classes.Project}>
                 <img src={props.img} alt={Project.description}/>
                 <div className={classes.Topic}>
-                    <h4>Topic Name</h4>
-                    <p>Loreum ipsum blah blah blah blah blah blah blah</p>
+                    <h4>{props.title}</h4>
+                    <p>{props.description}</p>
+                    <p>Tech: {props.tech}</p>
                 </div>
                 <div className={classes.DescriptionBox}>
                     <Button variant="contained" 

@@ -40,12 +40,13 @@
 
 .Topic{
     width:100%;
+    height:auto;
     z-index: 100;
     color:white;
     transition: .5 ease;
     opacity: 0;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%, -50%);
@@ -60,7 +61,7 @@
 
 .Project:hover img{
     cursor: pointer;
-    opacity: 0.2;
+    opacity: 0;
 }
 
 .Project:hover .DescriptionBox{
@@ -74,6 +75,19 @@
 @media(max-width:600px){
     .Project{
         width:250px;
-        height:250px;
+        height:350px;
     }
+
+    .Topic{
+        top:30%;
+    }
+
+    .Topic h4{
+        font-size:20px;
+    }
+
+    .Topic p{
+        font-size:15px;
+    }
+
 }

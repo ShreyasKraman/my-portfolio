@@ -64,26 +64,34 @@ class Feats extends Component {
                         <h2>My Projects</h2>
 
                         <div className={classes.GridList}>
-                            <Project img={BurgerApp} 
-                                description="Burger App"
+                            <Project img={BurgerApp}
+                                title="Burger Builder App" 
+                                description="Built a application with responsive design to custom build the burger before purchase."
+                                tech="React, Redux, Firebase"
                                 carousel={[BurgerBuilder]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
                             <Project 
-                                img={Dashboard} 
-                                description="Vue Dashboard"
+                                img={Dashboard}
+                                title="Food Logging Dashboard" 
+                                description="Built dashboard for clients (mainly restaurents) to input & track their daily food wastage."
+                                tech="Vue, Vuex, Vue-Material ui, Node.js, Express.js, MS SQL"
                                 carousel={[Dashboard,Crud,FoodLogs]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
                             <Project 
                                 img={SaveFood} 
-                                description="Ios App"
+                                title="Save the food"
+                                description="Built mobile app to encourage food donation and create awareness amongst general public."
+                                tech="Swift4, Firebase, Google API Signin, AVFoundation"
                                 carousel={[SaveFood,Analytics]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
                             <Project 
-                                img={TSK} 
-                                description="TSK"
+                                img={TSK}
+                                title="Tuberculosis monitoring" 
+                                description="Designed & developed app to ease communication between tuberculosis affected patients and doctors."
+                                tech="Java, Spring, Hibernate, Bootstrap, MY SQL"
                                 carousel={[TSK,Appointment,Email]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>

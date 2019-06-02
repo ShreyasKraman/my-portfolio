@@ -13,7 +13,7 @@ const Contact = () => {
         <div className={classes.Contact} id="Contact">
             <h2>Contact</h2>
 
-            <h4>Known enough about me? Now its your turn. Say Hello!</h4>
+            <h4>This was me. Now its your turn. Say Hello!</h4>
 
             <div className={classes.mail}> 
                 <a href="mailto:shreyas.kalyanaraman@gmail.com">Get in touch</a>

@@ -13,7 +13,7 @@ const navigationItems = () => (
         <ul className={classes.NavigationItems}>
             <NavigationItem link="AboutMe" active component={AboutMe}>About Me</NavigationItem>
             <NavigationItem link="Timeline" component={Timeline}>Timeline</NavigationItem>
-            <NavigationItem link="Projects" component={Project}>Project</NavigationItem>
+            <NavigationItem link="Projects" component={Project}>Projects</NavigationItem>
             <NavigationItem link="Contact" component={Contact}>Contact</NavigationItem>
         </ul>
 );
