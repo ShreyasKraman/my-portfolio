@@ -1,54 +1,83 @@
 .Summary{
-  padding: 40px;
-  background-color:white;  
+  width:65%;
+  padding: 0 60px 60px 60px;
+  color: white; 
+}
+
+.Summary p{
+  text-justify: auto;
+  text-align: left;
+  font-size:3vh;
+}
+
+.Summary p a{
+  color: #7ffbff;
+}
+
+.Summary p a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Summary h5{
+  text-decoration: underline;
+  color: #d9e8ff;
 }
 
 .Summary ul{
-    
-    list-style: none;
+  padding:0px;
 }
 
 .Summary li{
-    margin:15px;
+  list-style: disc;
+  display: inline;
+  color: #7ffbff;
 }
 
-.Parent {
-    height: 40px;
-    white-space: nowrap;
-    overflow: hidden; 
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 28px;
-    color: rgba(255,255,255,.70);
-    position: relative;
+.React{
+  color:#61DBFB;
 }
 
-.Border {
-    border-bottom: solid 3px rgba(0,255,0,.75);
-    position: absolute;
-    right: -7px;
-    width: 20px;
+.Vue{
+  color:#41B883;
 }
 
-/* Animation */
-.Parent {
-    animation: animated-text 2s steps(30,end) 1s 1 normal both
+.Java{
+  color:#f89820 ;
 }
 
-.Border {
-    animation: animated-cursor 600ms steps(30,end) infinite;
+.Git{
+  color: #3E2C00;
 }
 
-/* text animation */
-
-@keyframes animated-text{
-    from{width: 0;}
-    to{width: 480px;}
+.Node{
+  color:#68A063;
 }
 
-/* cursor animations */
-
-@keyframes animated-cursor{
-    from{border-bottom-color: rgba(0,255,0,.75);}
-    to{border-bottom-color: transparent;}
+.Aws{
+  color:#FF9B00;
 }
+
+.Docker{
+  color:#0db7ed;
+}
+
+@media(max-width:500px){
+  .Summary{
+    width:100%;
+  }
+
+  .Summary li{
+    display:list-item;
+  }
+
+}
+
+@media(min-width:500px){
+  .Summary li{
+    margin:10px;
+  }
+}
+
+
 

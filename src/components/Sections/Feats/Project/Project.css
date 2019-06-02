@@ -1,19 +1,27 @@
 .Project{
-    border: 1px solid #eeeeee;
-    border-radius: 2%;
-    box-shadow: 5px 5px #cccccc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     overflow: hidden;
     margin:10px;
     position: relative;
+    width:350px;
+    height:350px;
+}
+
+.Project:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .Project img{
-    width: 250px;
-    height:300px;
+    /* width: 350px;
+    height:350px; */
+    max-width: 100%;
+    max-height:100%;
     transition: .5s ease;
     backface-visibility: hidden;
     opacity: 1;
     display: block;
+    text-align: center;
 }
 
 .DescriptionBox{
@@ -23,18 +31,49 @@
     transition: .5 ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 
+.Topic{
+    width:100%;
+    z-index: 100;
+    color:white;
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Topic p{
+    color:white;
+    justify-content: center;
+    opacity: 1;
+}
+
 .Project:hover img{
     cursor: pointer;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .Project:hover .DescriptionBox{
     opacity: 1;
+}
+
+.Project:hover .Topic{
+    opacity: 1;
+}
+
+@media(max-width:600px){
+    .Project{
+        width:250px;
+        height:250px;
+    }
 }

@@ -23,6 +23,12 @@ const Sidedrawer = (props) => {
                 <nav>
                     <NavigationItems/>
                 </nav>
+                <div className={classes.Resume}>
+                    <a  target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://drive.google.com/file/d/1VOdzn9Zg9fT0eJBy3HwsqXiZS5dmzzar/view?usp=sharing">
+                    Resume</a>
+                </div>
             </div>
         </Aux>
     );

@@ -9,6 +9,10 @@ const Project = (props) => {
         return(
             <div className={classes.Project}>
                 <img src={props.img} alt={Project.description}/>
+                <div className={classes.Topic}>
+                    <h4>Topic Name</h4>
+                    <p>Loreum ipsum blah blah blah blah blah blah blah</p>
+                </div>
                 <div className={classes.DescriptionBox}>
                     <Button variant="contained" 
                             color="primary" 
