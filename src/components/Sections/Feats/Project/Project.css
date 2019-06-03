@@ -27,7 +27,6 @@
 
 .DescriptionBox{
     z-index: 100;
-    background-color: #000000;
     color:white;
     transition: .5 ease;
     opacity: 0;
@@ -37,6 +36,14 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    width:100%;
+    display: inline;
+}
+
+.DescriptionBox Button{
+    margin:10px;
+    color:white;
+    text-decoration: none;
 }
 
 .Topic{

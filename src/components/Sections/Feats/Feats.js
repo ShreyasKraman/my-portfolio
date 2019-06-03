@@ -68,6 +68,7 @@ class Feats extends Component {
                                 title="Burger Builder App" 
                                 description="Built a application with responsive design to custom build the burger before purchase."
                                 tech="React, Redux, Firebase"
+                                link="https://github.com/ShreyasKraman/Udemy-Burger-Builder"
                                 carousel={[BurgerBuilder]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
@@ -76,6 +77,7 @@ class Feats extends Component {
                                 title="Food Logging Dashboard" 
                                 description="Built dashboard for clients (mainly restaurents) to input & track their daily food wastage."
                                 tech="Vue, Vuex, Vue-Material ui, Node.js, Express.js, MS SQL"
+                                link="https://github.com/ShreyasKraman/Vue-Dashboard"
                                 carousel={[Dashboard,Crud,FoodLogs]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
@@ -84,6 +86,7 @@ class Feats extends Component {
                                 title="Save the food"
                                 description="Built mobile app to encourage food donation and create awareness amongst general public."
                                 tech="Swift4, Firebase, Google API Signin, AVFoundation"
+                                link="https://github.com/ShreyasKraman/SaveOurFood"
                                 carousel={[SaveFood,Analytics]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
@@ -92,6 +95,7 @@ class Feats extends Component {
                                 title="Disease Follow-up Portal" 
                                 description="Designed & developed app to ease communication between tuberculosis affected patients and doctors."
                                 tech="Java, Spring, Hibernate, Bootstrap, MY SQL"
+                                link="https://github.com/ShreyasKraman/TSK"
                                 carousel={[TSK,Appointment,Email]}
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>

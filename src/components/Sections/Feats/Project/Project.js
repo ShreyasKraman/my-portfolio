@@ -18,8 +18,16 @@ const Project = (props) => {
                 <div className={classes.DescriptionBox}>
                     <Button variant="contained" 
                             color="primary" 
+                            size={"medium"}
                             onClick={() => props.more(props.carousel,props.description)}>
                         View More
+                    </Button>
+                    <Button variant="contained"
+                            color="primary"
+                            size={"medium"}
+                            href={props.link}
+                            target="_blank">
+                        Github
                     </Button>
                 </div>
             </div>
