@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f3a8f6f2.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.eb0d5c62.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.eb0d5c62.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.705ea519.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.041a91ab.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.041a91ab.chunk.js.map",
     "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
     "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.674e5ed7.js.map",
-    "static/js/2.79997b3a.chunk.js": "/my-portfolio/static/js/2.79997b3a.chunk.js",
-    "static/js/2.79997b3a.chunk.js.map": "/my-portfolio/static/js/2.79997b3a.chunk.js.map",
+    "static/js/2.6344d42d.chunk.js": "/my-portfolio/static/js/2.6344d42d.chunk.js",
+    "static/js/2.6344d42d.chunk.js.map": "/my-portfolio/static/js/2.6344d42d.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.ff73852250ff08585130f089406cd0fb.js": "/my-portfolio/precache-manifest.ff73852250ff08585130f089406cd0fb.js",
+    "precache-manifest.8893d5191a329e9c958c1d399353bc1e.js": "/my-portfolio/precache-manifest.8893d5191a329e9c958c1d399353bc1e.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.f3a8f6f2.chunk.css.map": "/my-portfolio/static/css/main.f3a8f6f2.chunk.css.map",
+    "static/css/main.705ea519.chunk.css.map": "/my-portfolio/static/css/main.705ea519.chunk.css.map",
     "static/media/Add food logs.png": "/my-portfolio/static/media/Add food logs.7296770b.png",
     "static/media/Burgerbuilder.gif": "/my-portfolio/static/media/Burgerbuilder.1d77c173.gif",
     "static/media/Burgerbuilder.png": "/my-portfolio/static/media/Burgerbuilder.6b2adb50.png",
@@ -31,6 +31,8 @@
     "static/media/mu.png": "/my-portfolio/static/media/mu.de7b80ab.png",
     "static/media/nu.png": "/my-portfolio/static/media/nu.958de662.png",
     "static/media/phood.png": "/my-portfolio/static/media/phood.2ee2b4b5.png",
+    "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.911f958c.png",
+    "static/media/restapi.png": "/my-portfolio/static/media/restapi.56e64f3e.png",
     "static/media/spring.svg": "/my-portfolio/static/media/spring.1bcb25dc.svg"
   }
 }
