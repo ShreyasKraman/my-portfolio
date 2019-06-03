@@ -24,16 +24,15 @@
 }
 
 .GridList{
-    display:flex;
-    flex-wrap: wrap;
-    flex-flow: column;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
     margin:20px;
     align-items:center;
 }
 
-@media(min-width:599px){
+@media(max-width:600px){
     .GridList{
-        flex-flow: row; 
+        grid-template-columns: 250px; 
     }
 }

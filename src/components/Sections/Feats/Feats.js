@@ -22,6 +22,10 @@ import TSK from '../../../assets/TSK.png';
 import Appointment from '../../../assets/TSK 2.png';
 import Email from '../../../assets/TSK 3.png';
 
+import Rest from '../../../assets/restapi.png'
+
+import Portfolio from '../../../assets/portfolio.png';
+
 class Feats extends Component {
 
     state = {
@@ -91,12 +95,28 @@ class Feats extends Component {
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
                             <Project 
+                                img={Rest}
+                                title="Expense Tracker API"
+                                description="Designed and build an api endpoint to keep track of expenses and store expense bills as well."
+                                tech="Spring Boot, Hibernate, Travis, AWS EC2, AWS ELB, AWS S3, AWS Cloudformation, AWS IAM"
+                                link="https://github.com/ShreyasKraman/aws_cicd_api"
+                                more={this.modalOpenHandler}
+                                slider={this.carouselHandler}/>
+                            <Project 
                                 img={TSK}
                                 title="Disease Follow-up Portal" 
                                 description="Designed & developed app to ease communication between tuberculosis affected patients and doctors."
                                 tech="Java, Spring, Hibernate, Bootstrap, MY SQL"
                                 link="https://github.com/ShreyasKraman/TSK"
                                 carousel={[TSK,Appointment,Email]}
+                                more={this.modalOpenHandler}
+                                slider={this.carouselHandler}/>
+                            <Project 
+                                img={Portfolio}
+                                title="Portfolio website" 
+                                description="Designed & developed to express about myself in geeky way!"
+                                tech="React, React-bootstrap, React-MaterialUI"
+                                link="https://github.com/ShreyasKraman/my-portfolio"
                                 more={this.modalOpenHandler}
                                 slider={this.carouselHandler}/>
                         </div>
