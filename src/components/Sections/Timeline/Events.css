@@ -159,6 +159,14 @@
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
+
+    .content{
+      padding:10px 10px;
+    }
+
+    .content li{
+      font-size:12px;
+    }
   
     /* Make sure all circles are at the same spot */
     .left::after, .right::after {

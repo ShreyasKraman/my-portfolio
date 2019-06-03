@@ -6,6 +6,7 @@
     position: relative;
     width:350px;
     height:350px;
+    color:white;
 }
 
 .Project:hover{
@@ -70,6 +71,14 @@
 
 .Project:hover .Topic{
     opacity: 1;
+}
+
+.Project:hover .Topic h4{
+    opacity: 1;
+}
+
+.Project:hover h4{
+    opacity: 0;
 }
 
 @media(max-width:600px){

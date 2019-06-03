@@ -8,6 +8,7 @@ const Project = (props) => {
         
         return(
             <div className={classes.Project}>
+                <h4>{props.title}</h4>
                 <img src={props.img} alt={Project.description}/>
                 <div className={classes.Topic}>
                     <h4>{props.title}</h4>

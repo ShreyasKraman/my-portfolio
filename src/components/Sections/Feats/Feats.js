@@ -89,7 +89,7 @@ class Feats extends Component {
                                 slider={this.carouselHandler}/>
                             <Project 
                                 img={TSK}
-                                title="Tuberculosis monitoring" 
+                                title="Disease Follow-up Portal" 
                                 description="Designed & developed app to ease communication between tuberculosis affected patients and doctors."
                                 tech="Java, Spring, Hibernate, Bootstrap, MY SQL"
                                 carousel={[TSK,Appointment,Email]}

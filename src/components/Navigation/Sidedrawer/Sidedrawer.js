@@ -31,7 +31,7 @@ const Sidedrawer = (props) => {
                 <div className={classes.Resume}>
                     <a  target="_blank"
                         rel="noopener noreferrer"
-                        href="https://drive.google.com/file/d/1VOdzn9Zg9fT0eJBy3HwsqXiZS5dmzzar/view?usp=sharing">
+                        href="https://drive.google.com/file/d/1NWPdeDhDoJLNV-fd-3G-IJNDgppcMVCD/view?usp=sharing">
                     Resume</a>
                 </div>
             </div>
