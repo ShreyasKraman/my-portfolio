@@ -34,6 +34,17 @@
   color: #7ffbff;
 }
 
+.Summary .Hobbies{
+  font-size:20px;
+  color:#d9e8ff;
+  margin-top:50px;
+
+}
+
+.HobbyIcon{
+  color:#7ffbff
+}
+
 .React{
   color:#61DBFB;
 }
@@ -63,15 +74,39 @@
 }
 
 @media(max-width:600px){
+
+  .Summary ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  .Summary p{
+    font-size: 2.5vh;
+  }
+
+  .Summary .Hobbies{
+    font-size: 15px;
+  }
+
+}
+
+@media(min-width:1204px){
+  .Summary li{
+    margin:10px;
+  }
+}
+
+@media(max-width:1024px){
   .Summary{
     width:100%;
     padding: 0px 20px 20px;
   }
 
   .Summary ul{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
   }
 
   .Summary li{
@@ -81,14 +116,7 @@
   }
 
   .Summary p{
-    font-size: 2.5vh;
-  }
-
-}
-
-@media(min-width:599px){
-  .Summary li{
-    margin:10px;
+    font-size: 2vh;
   }
 }
 

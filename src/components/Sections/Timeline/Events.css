@@ -139,6 +139,20 @@
       text-align: left;
   }
 
+@media screen and (max-width: 1024px){
+  .content{
+    padding:10px 10px;
+  }
+
+  .content h3{
+    font-size:25px;
+  }
+
+  .content li{
+    font-size:12px;
+  }
+}
+
 @media screen and (max-width: 600px) {
     /* Place the timelime to the left */
     .Timeline::after {
@@ -158,14 +172,6 @@
         border: medium solid white;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
-    }
-
-    .content{
-      padding:10px 10px;
-    }
-
-    .content li{
-      font-size:12px;
     }
   
     /* Make sure all circles are at the same spot */

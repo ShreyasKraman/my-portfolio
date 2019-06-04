@@ -10,6 +10,7 @@ class Slideshow extends Component {
         return(
             <div>
                 <Carousel
+                    interval={1000}
                     >
                     {   
                         this.props.slider.map((img,index)=> {

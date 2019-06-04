@@ -31,8 +31,16 @@
     align-items:center;
 }
 
+@media(max-width:1024px){
+    .GridList{
+        grid-template-columns: repeat(2,250px);
+    }
+}
+
 @media(max-width:600px){
     .GridList{
         grid-template-columns: 250px; 
     }
 }
+
+

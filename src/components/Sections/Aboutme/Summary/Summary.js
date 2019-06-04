@@ -15,6 +15,11 @@ import {faNodeJs} from '@fortawesome/free-brands-svg-icons';
 import {faAws} from '@fortawesome/free-brands-svg-icons';
 import {faDocker} from '@fortawesome/free-brands-svg-icons';
 
+import {faHiking} from '@fortawesome/free-solid-svg-icons';
+import {faBicycle} from '@fortawesome/free-solid-svg-icons';
+import {faMapMarked} from '@fortawesome/free-solid-svg-icons';
+import {faGamepad} from '@fortawesome/free-solid-svg-icons';
+
 import Spring from '../../../../assets/spring.svg';
 import Hibernate from '../../../../assets/hibernate.png';
 import Vmware from '../../../../assets/vmware.png';
@@ -65,6 +70,12 @@ const Summary = () => {
                     <li><Icon img={Mocha} desc="Mocha"/> Mocha</li> 
                     <li><Icon img={Chai} desc="Chai"/> Chai</li> 
                 </ul>
+
+                <p className={classes.Hobbies}>
+                    I love <FontAwesomeIcon className={classes.HobbyIcon} icon={faHiking}/> hiking, 
+                    &nbsp;<FontAwesomeIcon className={classes.HobbyIcon} icon={faBicycle}/> biking, 
+                    &nbsp;<FontAwesomeIcon className={classes.HobbyIcon} icon={faMapMarked}/> exploring new places and
+                    &nbsp;<FontAwesomeIcon className={classes.HobbyIcon} icon={faGamepad}/> playing games (FPS, TPS and Fifa mostly)</p>
             </div>
         </Aux>
     );

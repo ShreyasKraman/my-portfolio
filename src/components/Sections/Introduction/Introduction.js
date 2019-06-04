@@ -14,11 +14,12 @@ class Introduction extends Component{
                     <div className={classes.Pitch}>
                         <h5>Hi, my name is</h5> 
                         <h2>Shreyas Kalyanaraman.</h2>
-                        <h4>My Mission: Build apps to solve problems</h4>
+                        <h3>I build software apps for the Net.</h3>
                         <div className={classes.Paragraph}>
-                            <p>I am a Full Stack Software Engineer, looking for opportunities all over the USA 
+                            <p>I am a Full Stack Software Engineer, looking for opportunities all over USA 
                                 to contribute, team up and learn from experts in the software universe. 
                             </p>
+
                         </div>
                         <div className={classes.mail}> 
                             <a href="mailto:shreyas.kalyanaraman@gmail.com">Get in touch</a>
