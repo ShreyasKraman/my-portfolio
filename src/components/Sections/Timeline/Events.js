@@ -24,7 +24,7 @@ const Events = () => {
                     <img src={Phood} alt="Phood LLC"/><h3>Phood LLC</h3>
                     <h6>Software Developer Intern (01/2019 - 04/2019)</h6>
                     <ul>
-                      <li>Collaborated with UI/UX team for wireframing and developed consumer-end user interface in vue.js, vuex, typescript</li>
+                      <li>Implemented consumer-end user interface in vue.js, vuex, typescript and collaborated with ui/ux team for wireframing and designing as well</li>
                       <li>Reduced post-consumer hardware product installation time by 40% using Raspberry Pi Zero W</li>
                       <li>Coordinated and took interviews to build team of ML engineers to develop an algorithm for live image classification </li>
                     </ul>
