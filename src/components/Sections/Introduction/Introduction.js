@@ -21,8 +21,16 @@ class Introduction extends Component{
                             </p>
 
                         </div>
-                        <div className={classes.mail}> 
-                            <a href="mailto:shreyas.kalyanaraman@gmail.com">Get in touch</a>
+                        <div className={classes.Grid}>
+                            <div className={classes.mail}> 
+                                <a href="mailto:shreyas.kalyanaraman@gmail.com">Get in touch</a>
+                            </div>
+                            <div className={classes.Resume}>
+                                <a  target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://drive.google.com/file/d/1NWPdeDhDoJLNV-fd-3G-IJNDgppcMVCD/view?usp=sharing">
+                                Resume</a>
+                            </div>
                         </div>
                     </div>
                 </Fade>

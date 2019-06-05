@@ -37,7 +37,7 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     width:100%;
-    display: inline;
+    display: none;
 }
 
 .DescriptionBox Button{
@@ -59,6 +59,7 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    display: none;
 }
 
 .Topic p{
@@ -74,10 +75,12 @@
 
 .Project:hover .DescriptionBox{
     opacity: 1;
+    display: inline;
 }
 
 .Project:hover .Topic{
     opacity: 1;
+    display: block;
 }
 
 .Project:hover .Topic h4{

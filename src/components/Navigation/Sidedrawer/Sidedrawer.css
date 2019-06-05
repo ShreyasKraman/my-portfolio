@@ -26,16 +26,6 @@
   margin-top:20px;
 }
 
-.Resume{
-    border: solid 0.5px;
-    padding:5px 30px;
-    border-radius:3px;
-}
-  
-.Resume a{
-  text-decoration: none;
-  color:#7ffbff;
-}
 
 @media( min-width: 600px ){
     .SideDrawer{

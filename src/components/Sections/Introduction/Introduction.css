@@ -53,6 +53,21 @@
 }
 
 
+.Resume{
+    margin-top: 5%;
+    display: none;
+}
+  
+/* .Resume a{
+    border: solid 0.5px;
+    padding:15px 40px;
+    border-radius:3px;
+  text-decoration: none;
+  color:#7ffbff;
+  text-align: center;
+} */
+
+
 @media(max-width:1024px){
     .Pitch h2{
         font-size:5vh;
@@ -82,6 +97,20 @@
     .Pitch h5{
         margin-top:35%;
         margin-bottom: 5%;
+    }
+
+    .Resume{
+         display: block;  
+    }
+
+    .Grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right:30px;
+    }
+
+    .Pitch a{
+        padding: 10px 20px;
     }
     
 }

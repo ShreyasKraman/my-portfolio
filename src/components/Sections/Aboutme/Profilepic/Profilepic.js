@@ -8,7 +8,7 @@ import classes from './Profilepic.css';
 const Profilepic = () => {
     return(
         <div className={classes.Profilepic}>
-            <Image src={Mypic} alt="Shreyas Kalyanaraman" thumbnail></Image>
+            <a href="https://github.com/ShreyasKRaman" target="_blank" rel="noopener noreferrer"><Image src={Mypic} alt="Shreyas Kalyanaraman" thumbnail></Image></a>
         </div>
     );
 }
