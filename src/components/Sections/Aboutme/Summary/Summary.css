@@ -47,31 +47,44 @@
 
 .React{
   color:#61DBFB;
+  margin-right:5px;
 }
 
 .Vue{
   color:#41B883;
+  margin-right:5px;
 }
 
 .Java{
   color:#f89820 ;
+  margin-right:5px;
 }
 
 .Git{
-  color: #3E2C00;
+  color: white;
+  margin-right:5px;
 }
 
 .Node{
   color:#68A063;
+  margin-right:5px;
 }
 
 .Aws{
   color:#FF9B00;
+  margin-right:5px;
 }
 
 .Docker{
   color:#0db7ed;
+  margin-right:5px;
 }
+
+.IconGrid{
+  margin: 0px;
+  display: inline-block;
+}
+
 
 @media(min-width:1204px){
   .Summary li{
@@ -99,6 +112,11 @@
 
   .Summary p{
     font-size: 2vh;
+  }
+
+  .IconGrid{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
   }
 }
 

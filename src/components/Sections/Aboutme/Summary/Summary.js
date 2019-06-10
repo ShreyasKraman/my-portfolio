@@ -24,7 +24,7 @@ import Spring from '../../../../assets/spring.svg';
 import Hibernate from '../../../../assets/hibernate.png';
 import Vmware from '../../../../assets/vmware.png';
 import Mocha from '../../../../assets/mocha.png';
-import Express from '../../../../assets/expressjs.svg';
+import Express from '../../../../assets/expressjs.png';
 import Chai from '../../../../assets/chai.png';
 import Junit from '../../../../assets/junit.png';
 
@@ -51,24 +51,84 @@ const Summary = () => {
                 <h5>My areas of expertise are</h5>
                 
                 <ul>
-                     <li><FontAwesomeIcon className={classes.React} icon={faReact}/> React.js</li>
-                     <li><FontAwesomeIcon className={classes.Vue}icon={faVuejs}/> Vue.js</li>
-                     <li><FontAwesomeIcon className={classes.Java}icon={faJava}/> Java</li>
-                     <li><Icon img={Spring} desc="Spring"/> Spring MVC</li> 
-                     <li><Icon img={Spring} desc="Spring"/> Spring Boot</li> 
-                     <li><Icon img={Hibernate} desc="Hibernate"/> Hibernate</li> 
-                     <li><FontAwesomeIcon className={classes.Git} icon={faGithub}/> Git</li>
+                     <li>
+                         <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.React} icon={faReact}/>React.js
+                         </div>
+                     </li>
+                     <li>
+                        <div className={classes.IconGrid}> 
+                            <FontAwesomeIcon className={classes.Vue}icon={faVuejs}/> Vue.js
+                        </div>     
+                    </li>
+                     <li>
+                        <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.Java}icon={faJava}/> Java
+                        </div>
+                    </li>
+                     <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Spring} desc="Spring"/> Spring MVC
+                        </div>
+                         </li> 
+                     <li>
+                     <div className={classes.IconGrid}>
+                         <Icon img={Spring} desc="Spring"/> Spring Boot
+                         </div>
+                         </li> 
+                     <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Hibernate} desc="Hibernate"/> Hibernate
+                        </div>
+                    </li> 
+                     <li>
+                        <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.Git} icon={faGithub}/> Git
+                        </div>
+                    </li>
                 </ul>
                 <h5>I also have hands-on knowledge in</h5>
                 <ul>
-                    <li><FontAwesomeIcon className={classes.Node} icon={faNodeJs}/> Node.js</li> 
-                    <li><Icon img={Express} desc="Expressjs"/> Express.js</li>
-                    <li><FontAwesomeIcon className={classes.Aws} icon={faAws}/> AWS</li>
-                    <li><FontAwesomeIcon className={classes.Docker} icon={faDocker}/> Docker</li> 
-                    <li><Icon img={Vmware} desc="Vmware"/> Vmware</li>
-                    <li><Icon img={Junit} desc="Junit"/> JUnit</li>
-                    <li><Icon img={Mocha} desc="Mocha"/> Mocha</li> 
-                    <li><Icon img={Chai} desc="Chai"/> Chai</li> 
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.Node} icon={faNodeJs}/> Node.js
+                        </div>
+                        </li> 
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Express} desc="Expressjs"/> Express.js
+                        </div>
+                    </li>
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.Aws} icon={faAws}/> AWS
+                        </div>
+                    </li>
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <FontAwesomeIcon className={classes.Docker} icon={faDocker}/> Docker
+                        </div>
+                    </li> 
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Vmware} desc="Vmware"/> Vmware
+                        </div>
+                    </li>
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Junit} desc="Junit"/> JUnit
+                        </div>
+                    </li>
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Mocha} desc="Mocha"/> Mocha
+                        </div>
+                    </li> 
+                    <li>
+                        <div className={classes.IconGrid}>
+                            <Icon img={Chai} desc="Chai"/> Chai
+                        </div>
+                    </li> 
                 </ul>
 
                 <p className={classes.Hobbies}>
