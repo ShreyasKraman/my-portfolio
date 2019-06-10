@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5780a862b1d20fdf32e19327bc93b52",
+    "revision": "e04991df70ab3f30594f7482ed494726",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "83c41ec86fbe51294397",
-    "url": "/my-portfolio/static/css/main.0527bd6c.chunk.css"
+    "revision": "82feb456bce4811d03b0",
+    "url": "/my-portfolio/static/css/main.d3b09f09.chunk.css"
   },
   {
-    "revision": "6ec2126f6ae0f83fe21b",
-    "url": "/my-portfolio/static/js/2.820ee866.chunk.js"
+    "revision": "c2df25d4d0fdd7ee4fad",
+    "url": "/my-portfolio/static/js/2.1013d6eb.chunk.js"
   },
   {
-    "revision": "83c41ec86fbe51294397",
-    "url": "/my-portfolio/static/js/main.8559cf2b.chunk.js"
+    "revision": "82feb456bce4811d03b0",
+    "url": "/my-portfolio/static/js/main.8b7071d1.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d77c173cedb9797f1a48f17bba2d32e",
     "url": "/my-portfolio/static/media/Burgerbuilder.1d77c173.gif"
-  },
-  {
-    "revision": "6b2adb50c35e98b9bffe5e8ae835ba72",
-    "url": "/my-portfolio/static/media/Burgerbuilder.6b2adb50.png"
   },
   {
     "revision": "72661af09b50441d3d12cb3854be1f68",
@@ -72,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/chai.5202e6d8.png"
   },
   {
-    "revision": "9de32921fe1e3899c721d066d10da3ef",
-    "url": "/my-portfolio/static/media/expressjs.9de32921.svg"
+    "revision": "803a40608e71aa6ed24f83f2a2e77bec",
+    "url": "/my-portfolio/static/media/expressjs.803a4060.png"
   },
   {
     "revision": "3372dc22c6dc416098deb091c2799b4e",
     "url": "/my-portfolio/static/media/hibernate.3372dc22.png"
   },
   {
-    "revision": "ca10bf13445b3167c0a235fccdea9b39",
-    "url": "/my-portfolio/static/media/junit.ca10bf13.png"
+    "revision": "ae638a44fcb0a76bbafd44b260a9dea8",
+    "url": "/my-portfolio/static/media/junit.ae638a44.png"
   },
   {
     "revision": "77e9c015ee20d43c1ca24750e38754b3",
