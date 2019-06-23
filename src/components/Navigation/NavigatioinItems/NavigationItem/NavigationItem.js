@@ -2,7 +2,9 @@ import React from 'react';
 
 import classes from './NavigationItem.css';
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const navigationItem = (props) => {
     return (
@@ -11,9 +13,11 @@ const navigationItem = (props) => {
             href={props.link} 
             className={props.active ? classes.active : null}>{props.children}
         </a> */}
+        <FontAwesomeIcon size={"sm"} className={classes.Icons} icon={props.icon}/>
         <Link to={props.link}  
               className={props.active ? classes.active : null}
               activeClass={props.active ? "active" : null}
+              onClick={props.close}
               smooth={true}
               offset={-70}
               duration={1000}>

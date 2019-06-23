@@ -16,7 +16,20 @@
     cursor: pointer;
  }
 
+ .Icons{
+    margin:auto;
+    display: inline-block;
+}
 
+@media(max-width:599px){
+    .Icons{
+        margin-right:10px;
+    }
+
+    .NavigationItem{
+        margin-left:20px;
+    }
+}
 
  @media(min-width:600px){
     .NavigationItem{
@@ -24,7 +37,7 @@
         display: flex;
         height: 100%;
         width:auto;
-        align-items: center;
+        /* align-items: center; */
     }
     
     .NavigationItem a{

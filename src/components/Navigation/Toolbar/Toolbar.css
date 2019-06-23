@@ -43,7 +43,7 @@
 
 .Toolbar li{
   display: inline;
-  margin: 20px;
+  margin: 20px 20px 20px 0px;
 }
 
 .Toolbar li:hover,

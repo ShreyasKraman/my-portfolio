@@ -22,12 +22,13 @@ class Layout extends Component {
     
     render(){
 
-        const sidedrawer = this.state.showSideDrawer ? <Sidedrawer open={this.state.showSideDrawer} close={this.closeSideDrawerHandler}/> : null;
+        // const sidedrawer = this.state.showSideDrawer ? <Sidedrawer open={this.state.showSideDrawer} close={this.closeSideDrawerHandler}/> : null;
 
         return(
             <Aux>
                 <Toolbar open={this.openSideDrawerHandler}/>
-                {sidedrawer}
+                {/* {sidedrawer} */}
+                <Sidedrawer open={this.state.showSideDrawer} close={this.closeSideDrawerHandler}/>
                 <main>
                     {this.props.children}
                 </main>

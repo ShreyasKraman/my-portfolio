@@ -7,25 +7,41 @@
     top:0;
     z-index: 200;
     background-color: #001064;
-    padding: 32px 16px;
+    padding: 32px 0px;
     box-sizing: border-box;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+    transform: translateX(-150px);
+    transition: transform 400ms ease-in-out;
     color:#7ffbff;
     box-shadow: 0 10px 28px rgba(0,0,0,0.19),0 6px 10px rgba(0,0,0,0.23);
 }
 
-.Close{  
+.Exit{  
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  margin-left:40px;
+  margin-left:20px;
   margin-top:20px;
 }
 
+.SideDrawer h3{
+    color:white;
+    text-align: left;
+    padding-left:20px;
+}
+
+.SideDrawer span:after{
+    content:'';
+    display: block;
+    margin:0 auto;
+    width:100%;
+    padding-top:20px;
+    border-bottom: 0.8px solid #7ffbff;
+}
+
+.Nav{
+    display: none;
+}
 
 @media( min-width: 600px ){
     .SideDrawer{
