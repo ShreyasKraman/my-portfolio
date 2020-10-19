@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5acf60bdfba9123b0ef06d51d3773a6",
+    "revision": "2a2d515e44611de2ed569869825a9623",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "90f8875f1880cbd86eeb",
-    "url": "/my-portfolio/static/css/main.64aba885.chunk.css"
+    "revision": "a2f31de5213fe170842a",
+    "url": "/my-portfolio/static/css/main.3aac4db5.chunk.css"
   },
   {
-    "revision": "b4a34f2f7c0659717821",
-    "url": "/my-portfolio/static/js/2.7a078cda.chunk.js"
+    "revision": "84c433532677c100bb52",
+    "url": "/my-portfolio/static/js/2.0e66173f.chunk.js"
   },
   {
-    "revision": "90f8875f1880cbd86eeb",
-    "url": "/my-portfolio/static/js/main.4d2138e4.chunk.js"
+    "revision": "a2f31de5213fe170842a",
+    "url": "/my-portfolio/static/js/main.4838b8cf.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56e64f3e884693bc6d065f9858741262",
     "url": "/my-portfolio/static/media/restapi.56e64f3e.png"
+  },
+  {
+    "revision": "088c852d54fa0cd2d971e1a4c04ed44f",
+    "url": "/my-portfolio/static/media/siemensLogo.088c852d.png"
   },
   {
     "revision": "1bcb25dc5998e4ebe66d6456ba45c611",

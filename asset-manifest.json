@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.64aba885.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.4d2138e4.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.4d2138e4.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.3aac4db5.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.4838b8cf.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.4838b8cf.chunk.js.map",
     "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
     "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.674e5ed7.js.map",
-    "static/js/2.7a078cda.chunk.js": "/my-portfolio/static/js/2.7a078cda.chunk.js",
-    "static/js/2.7a078cda.chunk.js.map": "/my-portfolio/static/js/2.7a078cda.chunk.js.map",
+    "static/js/2.0e66173f.chunk.js": "/my-portfolio/static/js/2.0e66173f.chunk.js",
+    "static/js/2.0e66173f.chunk.js.map": "/my-portfolio/static/js/2.0e66173f.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.e4cf816b709d6aaaf8bac37c0a0fe13c.js": "/my-portfolio/precache-manifest.e4cf816b709d6aaaf8bac37c0a0fe13c.js",
+    "precache-manifest.8552e052776f39d07296a3977981121a.js": "/my-portfolio/precache-manifest.8552e052776f39d07296a3977981121a.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.64aba885.chunk.css.map": "/my-portfolio/static/css/main.64aba885.chunk.css.map",
+    "static/css/main.3aac4db5.chunk.css.map": "/my-portfolio/static/css/main.3aac4db5.chunk.css.map",
     "static/media/Add food logs.png": "/my-portfolio/static/media/Add food logs.7296770b.png",
     "static/media/Burgerbuilder.gif": "/my-portfolio/static/media/Burgerbuilder.1d77c173.gif",
     "static/media/Crud.png": "/my-portfolio/static/media/Crud.72661af0.png",
@@ -32,6 +32,7 @@
     "static/media/phood.png": "/my-portfolio/static/media/phood.2ee2b4b5.png",
     "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.983dcd15.png",
     "static/media/restapi.png": "/my-portfolio/static/media/restapi.56e64f3e.png",
+    "static/media/siemensLogo.png": "/my-portfolio/static/media/siemensLogo.088c852d.png",
     "static/media/spring.svg": "/my-portfolio/static/media/spring.1bcb25dc.svg"
   }
 }
