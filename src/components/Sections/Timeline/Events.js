@@ -4,6 +4,7 @@ import Slide from 'react-reveal/Slide';
 
 import classes from './Events.css'; 
 
+import Siemens from '../../../assets/siemensLogo.png';
 import Phood from '../../../assets/phood.png';
 import NU from '../../../assets/nu.png';
 import MU from '../../../assets/mu.png';
@@ -19,6 +20,17 @@ const Events = () => {
           <div className={classes.Events} id="Timeline">
               <h2>Timeline</h2>
               <div className={classes.Timeline}>
+              <div className={containerRight.join(" ")}>
+                  <div className={classes.content}>
+                    <img src={Siemens} alt="Siemens"/><h3>Siemens PLM</h3>
+                    <h6>Software Engineer (11/2019 - Present)</h6>
+                    <ul>
+                      <li>Developed a website to host a mega virtual live streaming event which in turn supported 13k+ user registrations from companies all over america </li>
+                      <li>Accelerated new website development by building a tool in AWS to set up the entire website template and its infrastructure within minutes</li>
+                      <li>Mentored fellow interns by assigning them tasks and motivated them to come with new ideas </li>
+                    </ul>
+                  </div>
+                </div>
                 <div className={containerleft.join(" ")}>
                   <div className={classes.content}>
                     <img src={Phood} alt="Phood LLC"/><h3>Phood LLC</h3>
