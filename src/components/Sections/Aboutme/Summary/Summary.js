@@ -36,17 +36,17 @@ const Summary = () => {
                     enjoys building unique apps to solve real world problems. 
                     I like to keep apps secure, error free, simple and clean. 
                 </p>
-                <p>Currently, I am pursuing masters from &nbsp;  
-                    <a href="http://www.coe.neu.edu/" target="_blank" rel="noopener noreferrer">
-                        Northeastern University
+                <p>Currently, I am working at &nbsp;  
+                    <a href="https://www.sw.siemens.com/" target="_blank" rel="noopener noreferrer">
+                        SIEMENS
                     </a>
-                , Boston. I interned as Software Developer for 4 months at &nbsp;
-                    <a href="https://phoodsolutions.com/" target="_blank" rel="noopener noreferrer" >
-                        Phood LLC
-                    </a>, and have 2 years of professional work experience in &nbsp;
+                , Ohio. A year ago, I completed my Master's degree in Information Systems from &nbsp;
+                    <a href="https://coe.northeastern.edu/" target="_blank" rel="noopener noreferrer" >
+                        Northeastern University
+                    </a>, Boston and prior to this, I accomplished 2 successful years of professional work experience at &nbsp;
                     <a href="https://www.lntinfotech.com/" target="_blank" rel="noopener noreferrer">
                         L&T Infotech
-                    </a> as software developer.
+                    </a> as software engineer.
                 </p>
                 <h5>My areas of expertise are</h5>
                 

@@ -16,8 +16,8 @@ class Introduction extends Component{
                         <h2>Shreyas Kalyanaraman.</h2>
                         <h3>I build software apps for the Net.</h3>
                         <div className={classes.Paragraph}>
-                            <p>I am a Full Stack Software Engineer, looking for opportunities all over USA 
-                                to contribute, team up and learn from experts in the software universe. 
+                            <p>I am a Full Stack Software Engineer, 
+                                currently contributing, teaming up and learning from experts in the software universe. 
                             </p>
 
                         </div>
