@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d884e3fb8ad310668482e06e31971110",
+    "revision": "13ff540806a56c93226f5180db182c7c",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "dd2a37984b55baf511e9",
+    "revision": "85d75c94744de8a20ca2",
     "url": "/my-portfolio/static/css/main.3aac4db5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.23173c98.chunk.js"
   },
   {
-    "revision": "dd2a37984b55baf511e9",
-    "url": "/my-portfolio/static/js/main.49a82e80.chunk.js"
+    "revision": "85d75c94744de8a20ca2",
+    "url": "/my-portfolio/static/js/main.1c31d20d.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
@@ -60,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/analytics-phone.3367f9d6.png"
   },
   {
-    "revision": "cb26a3af7db087904b1db4ae8f164835",
-    "url": "/my-portfolio/static/media/cartoonish.cb26a3af.jpg"
-  },
-  {
     "revision": "5202e6d89bdc0122a1fccb7d34063062",
     "url": "/my-portfolio/static/media/chai.5202e6d8.png"
   },
@@ -98,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "983dcd151a0ab0334ce377a17b06278e",
     "url": "/my-portfolio/static/media/portfolio.983dcd15.png"
+  },
+  {
+    "revision": "bdde21bb52cb03b85d9c86ca2258be94",
+    "url": "/my-portfolio/static/media/profilePic.bdde21bb.jpg"
   },
   {
     "revision": "56e64f3e884693bc6d065f9858741262",

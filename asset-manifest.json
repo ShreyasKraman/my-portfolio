@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3aac4db5.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.49a82e80.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.49a82e80.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.1c31d20d.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.1c31d20d.chunk.js.map",
     "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
     "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.674e5ed7.js.map",
     "static/js/2.23173c98.chunk.js": "/my-portfolio/static/js/2.23173c98.chunk.js",
     "static/js/2.23173c98.chunk.js.map": "/my-portfolio/static/js/2.23173c98.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.64e3548735d54341539dd60f26e06f3b.js": "/my-portfolio/precache-manifest.64e3548735d54341539dd60f26e06f3b.js",
+    "precache-manifest.2eff9ae3c2f7948d9c741a11308a30b5.js": "/my-portfolio/precache-manifest.2eff9ae3c2f7948d9c741a11308a30b5.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/main.3aac4db5.chunk.css.map": "/my-portfolio/static/css/main.3aac4db5.chunk.css.map",
     "static/media/Add food logs.png": "/my-portfolio/static/media/Add food logs.7296770b.png",
@@ -21,7 +21,6 @@
     "static/media/TSK.png": "/my-portfolio/static/media/TSK.4a007647.png",
     "static/media/Vue dash board.png": "/my-portfolio/static/media/Vue dash board.44e6b449.png",
     "static/media/analytics-phone.png": "/my-portfolio/static/media/analytics-phone.3367f9d6.png",
-    "static/media/cartoonish.jpg": "/my-portfolio/static/media/cartoonish.cb26a3af.jpg",
     "static/media/chai.png": "/my-portfolio/static/media/chai.5202e6d8.png",
     "static/media/expressjs.png": "/my-portfolio/static/media/expressjs.803a4060.png",
     "static/media/hibernate.png": "/my-portfolio/static/media/hibernate.3372dc22.png",
@@ -31,6 +30,7 @@
     "static/media/nu.png": "/my-portfolio/static/media/nu.958de662.png",
     "static/media/phood.png": "/my-portfolio/static/media/phood.2ee2b4b5.png",
     "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.983dcd15.png",
+    "static/media/profilePic.jpg": "/my-portfolio/static/media/profilePic.bdde21bb.jpg",
     "static/media/restapi.png": "/my-portfolio/static/media/restapi.56e64f3e.png",
     "static/media/siemensLogo.png": "/my-portfolio/static/media/siemensLogo.088c852d.png",
     "static/media/spring.svg": "/my-portfolio/static/media/spring.1bcb25dc.svg"
