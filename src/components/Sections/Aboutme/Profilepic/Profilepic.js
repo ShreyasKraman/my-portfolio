@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Mypic from '../../../../assets/cartoonish.jpg';
+import Mypic from '../../../../assets/profilePic.jpg';
 
 import Image from 'react-bootstrap/Image';
 import classes from './Profilepic.css';
