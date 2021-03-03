@@ -63,7 +63,7 @@ class Feats extends Component {
         return(
             <Aux>
                 {modal}
-                <Fade bottom>
+                {/* <Fade bottom> */}
                     <div className={classes.Feats} id="Projects">
                         <h2>My Projects</h2>
 
@@ -121,7 +121,7 @@ class Feats extends Component {
                                 slider={this.carouselHandler}/>
                         </div>
                     </div>
-                </Fade>
+                {/* </Fade> */}
             </Aux>
         );
     }

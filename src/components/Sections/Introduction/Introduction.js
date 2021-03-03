@@ -10,7 +10,7 @@ class Introduction extends Component{
         
         return (
             <div className={classes.Introduction}>
-                <Fade top cascade>
+                {/* <Fade top cascade> */}
                     <div className={classes.Pitch}>
                         <h5>Hi, my name is</h5> 
                         <h2>Shreyas Kalyanaraman.</h2>
@@ -33,7 +33,7 @@ class Introduction extends Component{
                             </div>
                         </div>
                     </div>
-                </Fade>
+                {/* </Fade> */}
             </div>
         );
     }

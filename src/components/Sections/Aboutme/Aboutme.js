@@ -8,7 +8,7 @@ import Slide from 'react-reveal/Slide';
 
 const Aboutme = () => {
     return(
-        <Slide left>
+        // <Slide left>
             <div id="AboutMe" className={classes.Aboutme}>
                 <h2>About Me</h2>
                 <div className={classes.container}>
@@ -16,7 +16,7 @@ const Aboutme = () => {
                     <ProfilePic/>
                 </div>
             </div>
-        </Slide>
+        // </Slide>
     );
 }
 
