@@ -16,7 +16,7 @@ const Events = () => {
       const containerRight = [classes.container,classes.right];
     
     return(
-        <Slide right>
+        // <Slide right>
           <div className={classes.Events} id="Timeline">
               <h2>Timeline</h2>
               <div className={classes.Timeline}>
@@ -25,9 +25,9 @@ const Events = () => {
                     <img src={Siemens} alt="Siemens"/><h3>Siemens PLM</h3>
                     <h6>Software Engineer (11/2019 - Present)</h6>
                     <ul>
-                      <li>Developed a website to host a mega virtual live streaming event which in turn supported 13k+ user registrations from companies all over america </li>
-                      <li>Accelerated new website development by building a tool in AWS to set up the entire website template and its infrastructure within minutes</li>
-                      <li>Mentored fellow interns by assigning them tasks and motivated them to come with new ideas </li>
+                      <li>Developed complex reusable libraries in Javascipt, React and created npm modules of the same</li>
+                      <li>Engineered virtual event registration platform which achieved over 40k+ customer participation worldwide</li>
+                      <li>Collaborated with team to develop automated AWS cloudformation scripts to kickstart a new website with its necessary infrastructure viz. CDN, S3 buckets, Git, API, Lambda’s, CI/CD pipelines on hit of one single command</li>
                     </ul>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const Events = () => {
                 </div>
               </div>
           </div>
-        </Slide>
+        // </Slide>
     );
 }
 
