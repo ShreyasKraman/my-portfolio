@@ -74,3 +74,5 @@ A quick look at directories inside the project
 13. index.js: This is where the application renders its elements into React DOM 
 14. serviceWorker.js: This js file is where we can turn this app into progressive web app, that is make this app work in offline mode. Read comments in index.js.
 
+Copyright &copy; Shreyas Kalyanaraman
+
